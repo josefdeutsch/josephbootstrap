@@ -1,0 +1,6 @@
+#logo {
+  content: url('Logo.svg');
+  width: 48px;
+  height: auto;
+  object-fit: cover;
+}

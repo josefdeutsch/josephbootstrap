@@ -1,0 +1,23 @@
+#avatar {
+    border-radius: 1%;
+}
+#divider {
+    border-top: 0.25px solid rgba(0, 0, 0, 1);
+}
+#readmore{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    align-self: flex-end;
+}
+#collapsible {
+    align-self: flex-end;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+    border: thin;
+    text-align: left;
+    outline: none;
+    margin-left: -6px;  
+}

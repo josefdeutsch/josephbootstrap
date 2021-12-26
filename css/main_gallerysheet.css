@@ -1,0 +1,23 @@
+.galleryCard{
+    max-width: 158px;
+    max-height: 158px;
+    display: flex;
+    flex-flow: row wrap;
+   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    flex-grow: 2;
+}
+.cardRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#picture{
+    width: 158px;
+    height: 107px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
